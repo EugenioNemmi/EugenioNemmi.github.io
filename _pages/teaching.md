@@ -2,14 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Courses I teach and have taught.
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
-
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+I teach programming and algorithms at Sapienza University of Rome and in the Sapienza–ZUEL joint degree in Applied Computer Science and Artificial Intelligence.
 
 {% include courses.liquid %}

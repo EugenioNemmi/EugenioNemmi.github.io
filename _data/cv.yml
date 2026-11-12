@@ -1,189 +1,165 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Eugenio Nerio Nemmi
+  email: nemmi@di.uniroma1.it
+  location: Rome, Italy
+  website: https://eugenionemmi.github.io
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: EugenioNemmi
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Sapienza University of Rome
+        position: Assistant Professor (RTD-A)
+        location: Rome, Italy
+        start_date: 2024-09
+        end_date: present
+        summary: Department of Computer Science.
+
+      - company: Sapienza University of Rome
+        position: Postdoctoral Researcher
+        location: Rome, Italy
+        start_date: 2024-04
+        end_date: 2025-08
+        summary: SERICS project (Spoke 9, PNRR), Department of Computer Science.
+
+      - company: Sapienza University of Rome
+        position: Postdoctoral Researcher
+        location: Rome, Italy
+        start_date: 2023-04
+        end_date: 2024-03
+        summary: Interdisciplinary Applications of Machine Learning (Department of Excellence). Advisor Prof. Alessandro Mei.
+
+      - company: Sapienza University of Rome
+        position: Postdoctoral Researcher
+        location: Rome, Italy
+        start_date: 2022-04
+        end_date: 2023-03
+        summary: Blockchain and crypto-asset fraud analysis. Advisor Prof. Alessandro Mei.
+
+      - company: SystemsLab, Sapienza University of Rome
+        position: Research Fellow
+        location: Rome, Italy
+        start_date: 2016
+        end_date: 2022
+        summary: Android applications and ticketing systems, deliverable drafting, project supervision, and web-privacy research.
+
+    Education:
+      - institution: Sapienza University of Rome
+        location: Rome, Italy
+        area: Computer Science
+        studyType: PhD
+        degree: PhD
+        start_date: 2018
+        end_date: 2022
         highlights:
-          - Relativity
-          - Description 2.
+          - "Thesis: Profiling users on different platforms and detection of BGP attacks. Supervisor: Prof. Alessandro Mei."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - institution: Sapienza University of Rome
+        location: Rome, Italy
+        area: Computer Science
+        studyType: MSc (110 cum laude)
+        degree: MSc
+        start_date: 2015
+        end_date: 2018
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: Native Language Identification for the deanonymization of Tor users."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - institution: Sapienza University of Rome
+        location: Rome, Italy
+        area: Computer Science
+        studyType: BSc
+        degree: BSc
+        end_date: 2015
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Thesis: Privacy and Cookie Law, a tool for automated large-scale regulation analysis."
+
+    Teaching:
+      - bullet: "**Introduction to Programming and Laboratory** (12 CFU) — Sapienza, BSc in Molecular Biology, Medicinal Chemistry and Computer Science for Pharmaceutical Applications (A.Y. 2026/2027, ongoing)."
+      - bullet: "**Introduction to Programming and Laboratory** (12 CFU) — same degree (A.Y. 2025/2026)."
+      - bullet: "**Algorithms** — ACSAI joint degree Sapienza–ZUEL, taught at ZUEL, Wuhan, China (A.Y. 2025/2026)."
+      - bullet: "**Introduction to Programming and Laboratory** (9 CFU) — Sapienza, same BSc (A.Y. 2024/2025)."
+      - bullet: "**Informatica Generale** (3 CFU, contract professor) — Department of Mathematics, Sapienza (A.Y. 2023/2024)."
+      - bullet: "**Python and MongoDB** — 10-day course for two classes, SWS Engineering (2019)."
+
+    Visiting:
+      - bullet: "Aug 2025 — Invited Visiting Researcher, Center for Secure Information Systems, New York University. Hosted by Prof. Damon McCoy; research on arbitrage on centralized exchanges."
 
     Awards:
-      - title: Nobel Prize in Physics
+      - title: Dipartimento di Eccellenza research grant
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+          - Sapienza University of Rome
+        date: 2022
+        awarder: Sapienza University of Rome
 
-      - title: Max Planck Medal
+      - title: Avvio alla Ricerca grants (2019, 2022)
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - Sapienza University of Rome
+        date: 2022
+        awarder: Sapienza University of Rome
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: 2nd place (40+ teams), Authorship Attribution shared task
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - PAN @ CLEF
+        date: 2019
+        awarder: PAN @ CLEF 2019
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: 3rd place (40+ teams), Bots and Gender Profiling shared task
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - PAN @ CLEF
+        date: 2019
+        awarder: PAN @ CLEF 2019
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: PhD scholarship
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Sapienza University of Rome
+        date: 2019
+        awarder: Sapienza University of Rome
+
+    Funding:
+      - bullet: "2024 — **BEAT**, Sapienza Large Research Project. Investigator, about EUR 60,000."
+      - bullet: "2022 — **Analysis of token-related frauds on Ethereum and BSC**, Avvio alla Ricerca. Principal Investigator."
+      - bullet: "2021 — **Prebunking**, Sapienza Large Research Project. Investigator, about EUR 40,000."
+      - bullet: "2019 — **ARCHEM**, POR FESR Regione Lazio. Investigator."
+      - bullet: "2019 — **From the Dark Web to Reddit: identifying multiple accounts of the same user via stylometry and posting time**, Avvio alla Ricerca. Principal Investigator."
+      - bullet: "2016–present — participation in research and technology-transfer projects totalling over EUR 500,000."
+
+    Academic Services:
+      - bullet: "General Chair and PC Chair, HumSec'26 Workshop on Human-Targeted Cyber Threats and Defenses, at ESORICS 2026."
+      - bullet: "Program Committee: ICWSM (2022–2026), BPM (2024, 2025), ESORICS (2026)."
+      - bullet: "Reviewer: ICWS 2024, ICWS 2025; ACM Transactions on Internet Technology (2024); IEEE Access (2025)."
+      - bullet: "CORET Orientation and Mentoring Committee, Department of Computer Science, Sapienza (2026–present)."
+      - bullet: "CGAQ Quality Assurance Committee, BSc in Molecular Biology, Medicinal Chemistry and Computer Science for Pharmaceutical Applications (2024–present)."
+      - bullet: "Admission Committee, same degree (2025)."
+
+    Talks:
+      - bullet: "2025 — AI Demystified: What Every Producer Should Know. Invited talk, Audio-Visual Producers Summit (APA), Merano."
+      - bullet: "2023 — Translated Texts Under the Lens. IDA 2023, Louvain-la-Neuve."
+      - bullet: "2021 — The Parallel Lives of Autonomous Systems: ASN Allocations vs. BGP. ACM IMC 2021."
+      - bullet: "2020 — A Light in the Dark Web: Linking Dark Web Aliases to Real Internet Identities. IEEE ICDCS 2020."
+      - bullet: "2019 — Bot and Gender Detection of Twitter Accounts; Cross-Domain Authorship Attribution. CLEF 2019, Lugano."
+
+    Research Groups:
+      - bullet: "SystemsLab and Center for Data Science and Complexity for Society (CDCS), Sapienza University of Rome."
+      - bullet: "Center for Applied Internet Data Analysis (CAIDA), UC San Diego."
+      - bullet: "Process Science Group, Utrecht University."
+      - bullet: "NYU Center for Cybersecurity, Tandon School of Engineering."
+
+    Outreach:
+      - bullet: "Co-founder of DataBeers Rome (2023), a free recurring science-communication event about data."
+      - bullet: "Research featured on the APNIC Blog (2022)."
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, C, C++, Java, JavaScript, Assembly, JavaCard"
+      - name: Tools
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "Linux, Pandas, scikit-learn, OpenCV, MySQL, Arduino, APDU protocol"
 
     Languages:
-      - name: German
+      - name: Italian
         summary: "Native speaker"
-
       - name: English
         summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.

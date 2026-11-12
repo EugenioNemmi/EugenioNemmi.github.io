@@ -1,12 +1,12 @@
 ---
 layout: page
-title: projects
+title: research
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Main research lines and the papers behind them.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+display_categories: [security, applications]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
