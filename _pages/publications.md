@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Peer-reviewed papers and preprints, in reverse chronological order.
+description: Peer-reviewed papers and preprints, newest first.
 nav: true
 nav_order: 2
 ---

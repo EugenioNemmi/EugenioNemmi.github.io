@@ -1,0 +1,37 @@
+<!--
+  "What your browser reveals" box.
+  Everything is computed by assets/js/fingerprint.js inside the visitor's browser.
+  Nothing is stored or sent anywhere: the script makes no network requests.
+-->
+<section class="fp-box" id="fingerprint" aria-labelledby="fp-title">
+  <h2 id="fp-title">what your browser just told me</h2>
+  <p class="fp-intro">
+    Any website can read a lot of small details about your device without asking. One by one they are boring. Put together they make a
+    <em>browser fingerprint</em>, which is often enough to recognise you on a later visit, even after you clear your cookies. This is yours.
+  </p>
+
+  <button type="button" class="btn fp-button" id="fp-reveal">
+    <i class="fa-solid fa-fingerprint" aria-hidden="true"></i> Show me what my browser shares
+  </button>
+
+  <div class="fp-results" id="fp-results" hidden>
+    <dl class="fp-grid" id="fp-grid"></dl>
+
+    <div class="fp-id">
+      <div class="fp-id-label">Your fingerprint</div>
+      <div class="fp-id-value" id="fp-id"></div>
+      <p class="fp-id-note">
+        A short code built from the details above. Studies of real browsers have found that combinations like this are unique for many
+        visitors, and that is why fingerprinting gets used for tracking. Browsers such as Tor Browser and Brave push back by making their users
+        look alike.
+      </p>
+    </div>
+
+    <p class="fp-privacy">
+      <i class="fa-solid fa-lock" aria-hidden="true"></i>
+      All of this runs in your browser. Nothing is stored or sent anywhere, and it is gone when you leave the page.
+    </p>
+  </div>
+</section>
+
+<script src="{{ '/assets/js/fingerprint.js' | relative_url | bust_file_cache }}" defer></script>

@@ -4,6 +4,9 @@ layout: page
 <div class="course">
   {% if page.instructor or page.term or page.location or page.time %}
     <div class="course-info">
+      {% if page.year %}
+        <p><strong>Academic year:</strong> {{ page.year | remove: 'A.Y. ' }}{% if page.cfu %} · {{ page.cfu }} CFU{% endif %}</p>
+      {% endif %}
       {% if page.instructor %}
         <p><strong>Instructor:</strong> {{ page.instructor }}</p>
       {% endif %}
@@ -19,6 +22,16 @@ layout: page
       {% if page.time %}
         <p><strong>Time:</strong> {{ page.time }}</p>
       {% endif %}
+
+      {% comment %} Same text on every course page; override with `office_hours:` in a course's front matter. {% endcomment %}
+      <p>
+        <strong>Office hours:</strong>
+        {% if page.office_hours %}
+          {{ page.office_hours }}
+        {% else %}
+          By appointment only. Please <a href="mailto:nemmi@di.uniroma1.it">email me</a> to schedule a meeting.
+        {% endif %}
+      </p>
     </div>
   {% endif %}
 

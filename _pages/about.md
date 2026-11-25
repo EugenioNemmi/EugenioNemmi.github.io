@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor (RTD-A) · Department of Computer Science · <a href='https://www.uniroma1.it/en'>Sapienza University of Rome</a>
+subtitle: Assistant Professor ◈ <a href='https://github.com/SystemsLab-Sapienza'>SystemsLab</a> ◈ <a href='https://www.di.uniroma1.it/en'>Computer Science Department</a> ◈ <a href='https://corsidilaurea.uniroma1.it/docente/f3edede9ad82b990f1d4179db04e6e1f29f7e03ba76408889b17e8a4'>Sapienza University of Rome</a>
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic_2026.jpg # previous photo: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Department of Computer Science</p>
@@ -14,6 +14,7 @@ profile:
     <p>Rome, Italy</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+fingerprint_demo: true # "what your browser just told me" box (set to false to hide)
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -27,16 +28,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Assistant Professor (RTD-A) at the [Department of Computer Science](https://www.di.uniroma1.it/en) of Sapienza University of Rome, where I am a member of SystemsLab.
+I am an Assistant Professor (RTD-A) in the [Department of Computer Science](https://www.di.uniroma1.it/en) at Sapienza University of Rome, and part of the [SystemsLab](https://github.com/SystemsLab-Sapienza) group.
 
-My research sits at the intersection of **security, privacy, and data-driven measurement**. I study how people and systems can be profiled, deanonymized, and defrauded — and how to measure and prevent it. Recent topics include:
+I work on security and privacy, mostly through measurement. I look at how people and systems get tracked, deanonymized or scammed, and try to work out how often it happens and what can be done about it. Recently this has meant one-way arbitrage on crypto exchanges, weaknesses in Community Notes, and email tracking pixels.
 
-- **Blockchain and financial fraud** — NFT wash trading, token scams, and one-way arbitrage on centralized exchanges.
-- **Privacy-preserving systems** — confidential, verifiable decision support with TEEs and cryptographic protocols; web and email tracking.
-- **Platform integrity** — manipulation of community fact-checking and social bots.
-- **Internet measurement** — detection of BGP hijacks and misconfigurations.
-- **Applied machine learning** — authorship attribution, native-language identification, and generative AI for agriculture and marine monitoring.
+I did my PhD at Sapienza with Alessandro Mei, finishing in 2022, and I have worked with people at UCSD (CAIDA), MIT, NYU and Utrecht University. I teach introductory programming and algorithms. In 2023 I co-founded DataBeers Rome, a free public event about data.
 
-I received my PhD in Computer Science from Sapienza in 2022, advised by Prof. Alessandro Mei, and have collaborated with UCSD (CAIDA), MIT, NYU, and Utrecht University. I teach programming and algorithms, and I co-founded DataBeers Rome, a recurring public event about data.
-
-More details are in my [bio](/bio/), [publications](/publications/), and [CV](/cv/).
+There is more in my [bio](/bio/), [publications](/publications/) and [CV](/cv/).

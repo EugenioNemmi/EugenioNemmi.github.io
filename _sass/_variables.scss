@@ -19,6 +19,13 @@ $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
 $purple-color: #b509ac !default;
+// Sapienza red, used for the top line and the footer in both light and dark mode
+$sapienza-red: #822433 !default;
+// Site accent colours (Sapienza red; lighter tint for dark mode)
+$accent-color: #822433 !default;
+$accent-color-dark-mode: #e8808d !default;
+// Main text colour in light mode (dark grey instead of pure black)
+$text-color-light-mode: #2e2e33 !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;

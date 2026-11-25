@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined the Department of Computer Science of Sapienza University of Rome as Assistant Professor (RTD-A).
+Started as Assistant Professor (RTD-A) in the Department of Computer Science at Sapienza.

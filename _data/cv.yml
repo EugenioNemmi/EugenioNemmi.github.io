@@ -21,7 +21,7 @@ cv:
         position: Postdoctoral Researcher
         location: Rome, Italy
         start_date: 2024-04
-        end_date: 2025-08
+        end_date: 2024-08
         summary: SERICS project (Spoke 9, PNRR), Department of Computer Science.
 
       - company: Sapienza University of Rome
@@ -126,15 +126,17 @@ cv:
       - bullet: "2016–present — participation in research and technology-transfer projects totalling over EUR 500,000."
 
     Academic Services:
-      - bullet: "General Chair and PC Chair, HumSec'26 Workshop on Human-Targeted Cyber Threats and Defenses, at ESORICS 2026."
-      - bullet: "Program Committee: ICWSM (2022–2026), BPM (2024, 2025), ESORICS (2026)."
-      - bullet: "Reviewer: ICWS 2024, ICWS 2025; ACM Transactions on Internet Technology (2024); IEEE Access (2025)."
+      - bullet: "General Chair and PC Chair, [HumSec'26](https://humsec26.github.io/) Workshop on Human-Targeted Cyber Threats and Defenses, at ESORICS 2026."
+      - bullet: "Program Committee: TheWebConf (2027), ESORICS (2026), ICWSM (2022–2026), BPM (2024, 2025)."
+      - bullet: "Reviewer: ICWS 2024, ICWS 2025; ACM Transactions on Internet Technology (2024); IEEE Access (2025); Information, Communication & Society (2026)."
       - bullet: "CORET Orientation and Mentoring Committee, Department of Computer Science, Sapienza (2026–present)."
       - bullet: "CGAQ Quality Assurance Committee, BSc in Molecular Biology, Medicinal Chemistry and Computer Science for Pharmaceutical Applications (2024–present)."
       - bullet: "Admission Committee, same degree (2025)."
 
     Talks:
+      - bullet: "2026 — On the Vulnerability of Community Notes to Participation Concentration. ESORICS 2026, Rome."
       - bullet: "2025 — AI Demystified: What Every Producer Should Know. Invited talk, Audio-Visual Producers Summit (APA), Merano."
+      - bullet: "2023 — Fumetto e AI. Ingegno e algoritmi. Invited panelist, Romics, Rome."
       - bullet: "2023 — Translated Texts Under the Lens. IDA 2023, Louvain-la-Neuve."
       - bullet: "2021 — The Parallel Lives of Autonomous Systems: ASN Allocations vs. BGP. ACM IMC 2021."
       - bullet: "2020 — A Light in the Dark Web: Linking Dark Web Aliases to Real Internet Identities. IEEE ICDCS 2020."
@@ -147,19 +149,5 @@ cv:
       - bullet: "NYU Center for Cybersecurity, Tandon School of Engineering."
 
     Outreach:
-      - bullet: "Co-founder of DataBeers Rome (2023), a free recurring science-communication event about data."
+      - bullet: "Co-founder of DataBeers Rome (2023), a free public event about data."
       - bullet: "Research featured on the APNIC Blog (2022)."
-
-    Skills:
-      - name: Programming
-        icon: fa-solid fa-code
-        keywords: "Python, C, C++, Java, JavaScript, Assembly, JavaCard"
-      - name: Tools
-        icon: fa-solid fa-screwdriver-wrench
-        keywords: "Linux, Pandas, scikit-learn, OpenCV, MySQL, Arduino, APDU protocol"
-
-    Languages:
-      - name: Italian
-        summary: "Native speaker"
-      - name: English
-        summary: "Fluent"

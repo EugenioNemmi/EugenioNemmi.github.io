@@ -1,35 +1,36 @@
+{% comment %}
+  Teaching timeline: a vertical line with one marker per academic year,
+  and that year's courses listed under it (newest first).
+  Repeated editions of the same course (same `group`) only show the long
+  summary on the most recent one, to keep the timeline short.
+{% endcomment %}
 {% if site.teachings %}
-  <div class="courses">
-    {% assign courses_by_year = site.teachings | sort: 'year' | reverse | group_by: 'year' %}
-
-    {% for year_group in courses_by_year %}
-      <h2 class="year">{{ year_group.name }}</h2>
-      <div class="course-list">
-        {% assign year_courses = year_group.items | sort: 'term' %}
-        {% for course in year_courses %}
-          <div class="course-item">
-            <h3 class="course-title">
-              <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+  {% assign years = site.teachings | sort: 'year' | reverse | group_by: 'year' %}
+  {% assign seen = '' %}
+  <div class="teach-timeline">
+    {% for y in years %}
+      {% assign is_ongoing = y.items | where: 'ongoing', true | size %}
+      <section class="teach-year{% if is_ongoing > 0 %} is-ongoing{% endif %}">
+        <h2 class="teach-year-label">{{ y.name | remove: 'A.Y. ' }}</h2>
+        {% for c in y.items %}
+          {% assign key = c.group | default: c.course_id %}
+          {% capture marker %}|{{ key }}|{% endcapture %}
+          <div class="teach-course">
+            <h3 class="teach-title">
+              <a href="{{ c.url | relative_url }}">{{ c.group_title | default: c.title }}</a>
+              {% if c.ongoing %}<span class="course-ongoing">ongoing</span>{% endif %}
             </h3>
-
-            <div class="course-meta">
-              {% if course.term %}
-                <span class="course-term">{{ course.term }}</span>
-              {% endif %}
-
-              {% if course.instructor %}
-                <span class="course-instructor">{{ course.instructor }}</span>
-              {% endif %}
+            <div class="teach-meta">
+              {%- if c.cfu -%}{{ c.cfu }} CFU{%- endif -%}
+              {%- if c.role -%}{% if c.cfu %} · {% endif %}{{ c.role }}{%- endif -%}
             </div>
-
-            {% if course.description %}
-              <div class="course-description">
-                {{ course.description | markdownify }}
-              </div>
-            {% endif %}
+            {% unless seen contains marker %}
+              {% if c.summary %}<p class="teach-summary">{{ c.summary }}</p>{% endif %}
+            {% endunless %}
           </div>
+          {% assign seen = seen | append: marker %}
         {% endfor %}
-      </div>
+      </section>
     {% endfor %}
   </div>
 {% else %}

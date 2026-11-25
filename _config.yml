@@ -3,18 +3,19 @@
 # -----------------------------------------------------------------------------
 
 first_name: Eugenio
+middle_name: Nerio
 last_name: Nemmi
-title: Eugenio Nemmi
+title: Eugenio Nerio Nemmi
 contact_note: >
   Email is the best way to reach me.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Eugenio Nerio Nemmi, Assistant Professor of Computer Science at Sapienza University of Rome. Research on security, privacy, blockchain fraud, and Internet measurement.
+description: >
+  Eugenio Nerio Nemmi, Assistant Professor of Computer Science at Sapienza University of Rome. Security, privacy, blockchain fraud and Internet measurement.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: Eugenio Nemmi, Sapienza, computer science, security, privacy, blockchain, internet measurement
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🔐 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://eugenionemmi.github.io
 baseurl: ""
@@ -53,6 +54,7 @@ external_services:
 
 navbar_fixed: true
 footer_fixed: true
+cats: true # Guillermo & Nadja occasionally wander along the bottom of the page (assets/js/cats.js); false to turn off
 search_enabled: true
 socials_in_search: true
 posts_in_search: false
@@ -149,7 +151,7 @@ collections:
   posts:
     output: false
   projects:
-    output: true
+    output: false # research pages hidden for now; set to true to bring them back
   teachings:
     output: true
 
@@ -454,7 +456,9 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      # Site fonts: to change them, pick fonts on fonts.google.com, paste the link here,
+      # and set $heading-font / $body-font at the top of _sass/_custom.scss
+      fonts: "https://fonts.googleapis.com/css2?family=Google+Sans+Flex:ital,wght@0,300..700;1,300..700&family=Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:

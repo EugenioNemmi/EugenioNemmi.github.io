@@ -5,6 +5,7 @@ permalink: /projects/
 description: Main research lines and the papers behind them.
 nav: true
 nav_order: 3
+published: false # hidden for now; set to true (and projects output: true in _config.yml) to show it again
 display_categories: [security, applications]
 horizontal: true
 ---

@@ -1,4 +1,46 @@
-# Venue badges for publications: "ABBR":
-#   url: https://...
-#   color: "#00369f"
-{}
+# Venue badges on the publications page, keyed by the `abbr` field in papers.bib.
+# Colours are grouped by kind of venue; text on the badges is white.
+
+# Security and privacy conferences
+"ESORICS":
+  color: "#822433"
+"FC":
+  color: "#4338ca"
+
+# Systems, networking and measurement conferences
+"ICDCS":
+  color: "#1f5f8b"
+"IMC":
+  color: "#2a7a6f"
+
+# Data, information systems and process conferences
+"IDA":
+  color: "#5b4a8b"
+"EDOC":
+  color: "#6b5b95"
+"CAiSE":
+  color: "#7a5c9e"
+"ICIAP":
+  color: "#8a5a83"
+"CLEF":
+  color: "#9c6b30"
+
+# IEEE journals
+"IEEE Access":
+  color: "#00629b"
+"IEEE TSC":
+  color: "#00507f"
+"IEEE CC":
+  color: "#2b6f9e"
+
+# Elsevier journals
+"EMS":
+  color: "#3d7a3a"
+"COMPAG":
+  color: "#4f7d2c"
+"AquaEng":
+  color: "#2e7d6b"
+
+# Preprints
+"arXiv":
+  color: "#6b6b6b"
