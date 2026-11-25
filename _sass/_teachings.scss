@@ -51,6 +51,11 @@ $tl-indent: 2.4rem; // where course text starts
   box-shadow: 0 0 0 4px rgba(130, 36, 51, 0.2);
 }
 
+// dark mode: the red halo disappears on the dark background, use the lighter accent
+html[data-theme="dark"] .teach-year.is-ongoing .teach-year-label {
+  box-shadow: 0 0 0 4px rgba(232, 128, 141, 0.35);
+}
+
 .teach-course {
   position: relative;
   margin-bottom: 1rem;
